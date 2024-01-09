@@ -12,6 +12,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env: 
+      USERNAME_DEV: ${{secrets.USERNAME_DEV}}
+      PWD_DEV: ${{secrets.PWD_DEV}}
 
     steps:
     - uses: actions/checkout@v2
