@@ -29,7 +29,7 @@ test('TC02_verifyLoginFromCheckoutPage', async ({ page }) => {
   // await page.pause()
 });
 
-test.only('TC03_verifyLoginFromLoginPage', async ({ page }) => {
+test('TC03_verifyLoginFromLoginPage', async ({ page }) => {
   test.setTimeout(120000);
   const Login = new LoginPage(page);
   await Login.goToCheckoutRegistrationPage();
@@ -39,7 +39,7 @@ test.only('TC03_verifyLoginFromLoginPage', async ({ page }) => {
   await Login.login_btn.click();
   await Login.edit_btn.click();
   expect( page.getByRole('button',{name: 'Log In'}).isVisible());
-  await page.pause()
+  //await page.pause()
 
 });
 
