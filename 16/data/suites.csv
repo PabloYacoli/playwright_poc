@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 23 13:17:59 GMT 2024","Tue Jan 23 13:18:04 GMT 2024","4878","chromium","poc.spec.js","","","","TC01_verifyRegistrationFromCheckoutPage",""
+"passed","Tue Jan 23 13:18:15 GMT 2024","Tue Jan 23 13:18:20 GMT 2024","4145","chromium","poc.spec.js","","","","TC04_verifyRegistrationFieldValidationOnCheckout",""
+"passed","Tue Jan 23 13:18:07 GMT 2024","Tue Jan 23 13:18:15 GMT 2024","8324","chromium","poc.spec.js","","","","TC03_verifyLoginFromLoginPage",""
+"passed","Tue Jan 23 13:18:04 GMT 2024","Tue Jan 23 13:18:07 GMT 2024","3449","chromium","poc.spec.js","","","","TC02_verifyLoginFromCheckoutPage",""
